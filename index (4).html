@@ -1,0 +1,111 @@
+<html>
+<head>
+    <title>Pooling Order Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-roboto">
+    <div class="container mx-auto p-6">
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-bold mb-6">Pooling Order Form</h2>
+            <form id="poolingOrderForm">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-gray-700">Sumber Order</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Sumber Order">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">NIB Mitra</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="NIB Mitra">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Date</label>
+                        <input type="date" class="w-full mt-2 p-2 border rounded">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Nama</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Nama">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">NIK KTP</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="NIK KTP">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">TTL</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="TTL">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Alamat Survey</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Alamat Survey">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">No. Telp/WA</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="No. Telp/WA">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Brand/Merk</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Brand/Merk">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Type Unit</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Type Unit">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Tahun</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Tahun">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Nomor Polisi</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Nomor Polisi">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">BPKB a/n</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="BPKB a/n">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Pencairan Dana</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Pencairan Dana">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Tenor</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Tenor">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Angsuran</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Angsuran">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Asuransi</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Asuransi">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">LR Regular</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="LR Regular">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Tujuan Pembiayaan</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Tujuan Pembiayaan">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700">Cabang Tujuan</label>
+                        <input type="text" class="w-full mt-2 p-2 border rounded" placeholder="Cabang Tujuan">
+                    </div>
+                    <div class="md:col-span-2">
+                        <label class="block text-gray-700">Keterangan</label>
+                        <textarea class="w-full mt-2 p-2 border rounded" placeholder="Keterangan"></textarea>
+                    </div>
+                </div>
+                <div class="mt-6 flex justify-between">
+                    <button type="button" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+                        <i class="fab fa-whatsapp"></i> Kirim to WhatsApp
+                    </button>
+                    <button type="reset" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+                        Clear
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
